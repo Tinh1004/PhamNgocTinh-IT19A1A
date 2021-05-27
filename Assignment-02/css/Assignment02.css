@@ -1,0 +1,20 @@
+table {
+  border: none;
+  width: 800px;
+  text-align: center;
+  border-collapse: collapse;
+  color: rgb(0, 0, 0);
+}
+table thead{
+    background-color: blueviolet;
+}
+table th{
+  width: 20%;
+  height: 30px;
+}
+table thead tr:nth-child(even){
+	background: rgb(255, 206, 175);
+}
+table thead tr:nth-child(odd){
+	background: rgba(48, 0, 94, 0.192);;
+}
